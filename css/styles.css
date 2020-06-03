@@ -1,0 +1,171 @@
+body{
+  font-family: "Montserrat";
+  }
+
+#title
+{
+  background-color: #FF4C68;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+h1
+{
+  font-family: "Montserrat black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+h2{
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+   font-family: "Montserrat";
+   font-weight: 700;
+   font-size: 1.5rem;
+ }
+
+p{
+  color: #8f8f8f;
+}
+
+/* navigation bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+
+.nav-link{
+  font-family: "Montserrat light";
+  font-size: 1.2rem;
+}
+
+/* buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 991px){
+  .title-image{
+    position: static;
+    transform: rotate(0deg);
+  }
+  #title{
+    text-align: center;
+  }
+  .download-button{
+
+  }
+}
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.feature-icon{
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+.feature-icon:hover{
+  color: #FF4C68;
+}
+
+/* testimonial section*/
+ #testimonials{
+   text-align: center;
+   background-color: #ef8172;
+   color: #fff;
+ }
+
+ .testimonial-image{
+   width: 10%;
+   border-radius: 100px;
+   margin: 20px;
+ }
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+ .press-logo{
+   width: 15%;
+   margin: 20px 20px 50px;
+ }
+
+ .carousel-item{
+   padding: 7% 15%;
+ }
+
+ /* pricing section */
+
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+
+.pricing-coloumn {
+  padding: 3% 2%;
+}
+
+/* footer section */
+
+#cta{
+  background-color: #FF4C68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.final-h{
+  font-family: "Montserrat";
+  font-weight: 900;
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 3.5rem;
+}
+
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 3%;
+}
+
+.footer-icon{
+  color: #8f8f8f;
+  margin: 10px;
+}
+.footer-icon:hover{
+  color: #000;
+}
